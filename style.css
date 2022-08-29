@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: rgb(49, 188, 241);
+    background: linear-gradient(0deg, rgba(49, 188, 241, 1) 0%, rgba(246, 246, 246, 1) 100%);
+}
+
+main {
+    height: 98vh;
+    width: 100vw;
+}
+
+nav {
+    height: 98vh;
+    width: 20vw;
+    background-color: rgb(9, 107, 199);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+section {
+    margin-top: 350px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+#foto {
+    border: black solid 2px;
+    border-radius: 100px;
+    padding: 0;
+    width: 45%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 300px;
+    text-align: center;
+}
+
+ul#ul1 {
+    list-style: none;
+    text-align: center;
+}
+
+.lista {
+    padding: 10px;
+}
+
+button {
+    border-color: #000e0c;
+    color: rgb(5, 5, 5);
+    box-shadow: 0 0 40px 40px #e7ece7 inset, 0 0 0 0 #111011;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    border-radius: 5px;
+    width: 110px;
+    height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    box-shadow: 0 0 10px 0 #fffffd inset, 0 0 10px 4px #fcfbfa;
+}
+
+h1#nome {
+    color: rgb(1, 16, 29);
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    margin-top: 300px;
+    font-size: 2.5rem;
+}
+
+span {
+    color: rgb(9, 107, 199);
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: rgb(1, 7, 12);
+    text-align: left;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 7, 12);
+    text-align: left;
+}
+
+img.icones2 {
+    border-radius: 100px;
+    padding: 10px;
+    width: 3%;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+#conhecimentos {
+    font-size: 1.5rem;
+    margin-top: 350px;
+    color: rgb(1, 16, 29);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+}
+
+#objetivos {
+    font-size: 1.5rem;
+    margin-top: 350px;
+    color: rgb(1, 16, 29);
+    font-family: 'Roboto', sans-serif;
+}
+
+#email {
+    text-decoration: none;
+}
+
+ol {
+    list-style-type: upper-alpha;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#lista3 {
+    margin-top: 50px;
+    margin-left: 30px;
+}
