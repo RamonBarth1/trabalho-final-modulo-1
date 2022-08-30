@@ -141,3 +141,10 @@ ol {
 a {
     text-decoration: none;
 }
+
+.objetivos1 {
+    font-size: 1.5rem;
+    color: rgb(1, 16, 29);
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+}
