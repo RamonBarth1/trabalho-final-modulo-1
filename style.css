@@ -19,7 +19,7 @@ main {
 nav {
     height: 98vh;
     width: 20vw;
-    background-color: rgb(9, 107, 199);
+    background-color: rgb(9, 118, 219);
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 10px;
@@ -68,7 +68,7 @@ button:hover {
 }
 
 h1#nome {
-    color: rgb(1, 16, 29);
+    color: rgb(1, 11, 17);
     font-family: 'Merriweather', serif;
     text-align: left;
     margin-top: 300px;
@@ -76,19 +76,19 @@ h1#nome {
 }
 
 span {
-    color: rgb(9, 107, 199);
+    color: rgb(9, 118, 219);
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    color: rgb(1, 7, 12);
+    color: rgb(1, 11, 17);
     text-align: left;
 }
 
 h4 {
     font-family: 'Roboto', sans-serif;
-    color: rgb(0, 7, 12);
+    color: rgb(1, 11, 17);
     text-align: left;
 }
 
@@ -128,4 +128,12 @@ ol {
 #lista3 {
     margin-top: 50px;
     margin-left: 30px;
+}
+
+.subtitulo {
+    color: rgb(9, 118, 219);
+}
+
+a {
+    text-decoration: none;
 }
